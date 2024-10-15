@@ -9,3 +9,71 @@ body {
     border-radius: 16px;
     padding: 30px;
 }
+header {
+    border-bottom: 3px solid navajowhite;
+    padding: 0 0 30px 0;
+}
+.search-form-input {
+    background: navajowhite;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    font-size: 16px;
+    padding: 20px;
+}
+a {
+    color: blue;
+}
+.search-form-button {
+    background: purple;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-left: 5px;
+}
+footer {
+    border-top: 1px solid navajowhite;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(red, green, blue, alpha);:
+}
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    padding: 30px;
+}
+.weather-app-city {
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+.weather-app-details {
+    font-size: 16px;
+    color: rgb(221, 31, 142);
+    line-height: 24px;
+    font-weight: 500;
+
+}
+.weather-app-details strong {
+    color:blueviolet;
+}
+.weather-app-temperature-container {
+    display: flex;
+}
+.weather-app-temperature {
+    font-size: 88px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.weather-app-icon{
+    font-size: 44px;
+    margin-top: 22px;
+}
+.weather-app-unit{
+    margin-top: 16px; 
+    font-size: 28px;
+}
